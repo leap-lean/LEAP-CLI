@@ -15,7 +15,7 @@ dependencies = ["pydantic>=2"]
 test = ["absl-py"]
 
 [project.urls]
-Homepage = "https://github.com/billkunghappy/LEAP-CLI"
+Homepage = "https://github.com/leap-lean/LEAP-CLI"
 Paper = "https://arxiv.org/abs/2606.03303"
 
 [project.scripts]
