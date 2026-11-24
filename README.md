@@ -7,7 +7,7 @@ It is the CLI-agent version of [arXiv:2606.03303](https://arxiv.org/abs/2606.033
 ## Quickstart
 
 ```bash
-pipx install git+https://github.com/billkunghappy/LEAP-CLI   # or: uv tool install / pip install
+pipx install git+https://github.com/leap-lean/LEAP-CLI   # or: uv tool install / pip install
 leap lean                 # one-time: installs Lean v4.34.0 + Mathlib (~11 GB on disk, 10–20 min)
 
 mkdir my-proofs && cd my-proofs
@@ -89,7 +89,7 @@ See [docs/architecture.md](docs/architecture.md) for the full design.
 ## Development
 
 ```bash
-git clone https://github.com/billkunghappy/LEAP-CLI && cd LEAP-CLI
+git clone https://github.com/leap-lean/LEAP-CLI && cd LEAP-CLI
 pip install -e ".[test]"
 python3 -m unittest discover -s tests -p '*_test.py'
 ```

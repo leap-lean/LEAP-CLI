@@ -11,7 +11,7 @@ A pip package with only the three CLI tools the LEAP agents call, plus the
 | `lean_search_tool_bin` | `leap/lean_search_tool.py` (leansearch.net / Loogle) |
 
 ```bash
-pip install "leap-tools @ git+https://github.com/billkunghappy/LEAP-CLI@f81ebec994884aba7dd78f903e403e3716b3787c#subdirectory=packaging/leap-tools"
+pip install "leap-tools @ git+https://github.com/leap-lean/LEAP-CLI@f81ebec994884aba7dd78f903e403e3716b3787c#subdirectory=packaging/leap-tools"
 leap lean      # one-time: Lean v4.34.0 + matching Mathlib (~11 GB on disk, 10–20 min)
 leap doctor    # optional: check the setup end to end
 ```
